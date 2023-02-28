@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    width: 700px;
+
+    .item {
+        position: relative;
+        height: 100%;
+        flex: 1;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image {
+            position: absolute;
+            object-fit: cover;
+            width: 200%;
+            height: 200%;
+            top: -70%;
+            left: -70%;
+        }
+    }
+
+    // .item-1 {
+    //     background-image: url("");
+    //     background-size: 100% 100px;
+    // }
+
+    .flex-4 {
+        flex: 4 !important;
+    }
+}

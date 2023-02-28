@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
+  height: 200px;
+  width: 700px;
+}
+.wrapper .item {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .item .image {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200%;
+  height: 200%;
+  top: -70%;
+  left: -70%;
+}
+.wrapper .flex-4 {
+  flex: 4 !important;
+}/*# sourceMappingURL=index.css.map */
